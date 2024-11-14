@@ -131,7 +131,7 @@ const Menu = () => {
               className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 px-4 rounded-lg hover:bg-gray-100"
             >
               <Image src={item.icon} alt={item.label} width={20} height={20} />
-              <span>{item.label}</span>
+              <span className="hidden lg:block">{item.label}</span>
             </Link>
           ))}
         </div>
